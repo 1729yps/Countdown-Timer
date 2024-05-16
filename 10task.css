@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg");
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwcNCAgHBw0NBw0HCAcHBw8ICQcNFREWFhURExMYHTQgGBoxGx8VITEhJSkrOi4uIx8zPjMsNygtLjcBCgoKDQ0NDg0NDisZFRkrKy0rNzcrKysrNystKysrLSstKysrKysrLTcrKysrKysrKysrLSsrKysrKysrKysrK//AABEIAKsBJgMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBgQH/8QAKRABAQABAgMIAgMBAAAAAAAAAAERAgMhUZETMUFSYXGBoWKxEjJyBP/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A/bAqKIggCCCiCAIJCAEAAhQVFQBBAEEBExrmdNnRoA+bJyd7Ti559/u5yqOspy5ytSg0FlAEgASAIIDkJAEggekCDloggoggCCAIICIIAgqAFBAAEAggIggA1yWWV8tzLZX1OW7ozMzv/ajlK1K55MoOkpyxKciNBZQoBAgFIEAIAJAHpEhXLQUEKAEAEgIggCZpAAU1kEEAQIEAIAA1kFQgo5bujx0/M5uUr6XLc288Zwv7EYlalc+MvHgciOkpy5ynINUIAggCCFBBIR6QII1QQBAgQAgBQRQFCFBBAEEBEKgCCAIVUKAEAEgA1SXvcrt3w4/t1Ajjk5dLJ4sXTyEWUzxMoEIAmSKAIQj0gQRqggCCAiCAIVUAqyQABAIICIIAqEFBQQACQAEAAQIAQIBYQABrIIICJAg9IyQjVBARBAEKgAoprIIEAAQIAaAANAAKhRBAEEAQQEqoQEQSoAIUEKgIhUASCB6QEI0AIAAigKEAQQBBAEEBECzQQqCiCAIIAggCCA5QQBBAFWTRRACAApFAZTlr39uXv/l/njhA9SEEaIIAhVQCrJAIK2M/ygEC6vSs3X6CNBi6/QdpeQN0Od3Lygu5eUUboY7S8vtntLynUHQOfa+n2u1/H7EbDF3fx+xd2cr1BtOV3p5b1XbTy3qDdDnd6eW9Rd6eW9RHROPb/j9i798s6g6iuN39XLTGLvbnpPgH0B813NzzX44MW299t97kR9WrXpnfq0z5ctW/o8M32jhgUG9X/Rq8JNP3XLXq1X+1t97wVFBlFA9kEEaIIUAKaAFFIBmwWNARiwWN1mgxYzY6WM2KMWM1uwWAxhmt0WAxYzWxRyxYzWxgGKG7GbAYosbrNBihtmiM1mt2CgwMN1kGQ1QDLLbNBlFA9eyQjQUIUEEAQSABARAs0EKqFBRSAFjNjQBmxmxugRixmt2CiMVmt0AxgVqigxYK1RRGKGhQZow0AYorVAM1mt1mgyigerFNZRoqFRQQVFBBUCIIAgqKoKCAFBAAEUEFRRKmTQIKKQArNaooMUVqgRlmtUAzQ0zQZFaooMUVoUGQagf/2Q==");
     font-family: "Poppins",sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -18,22 +18,24 @@ body{
 }
 .timer{
     display: flex;
-    margin-top: -1rem;
+    gap: 2%;
+    margin-top: -2%;
 }
 .content{
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height:1;
-    margin:0 2rem;
+    margin:1rem;
+    margin-left: -5%;
     font-weight: bold;
-    background-color: rgba(55, 55, 97, 0.623);
+    background-color: rgba(187, 179, 178, 0.623);
 }
 .count{
     text-align: center;
 }
 .count span{
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
-.product img{
+.img img{
     height: 50vh;
     width: 30vw;
     margin-top: 15px;
@@ -45,7 +47,7 @@ p{
 }
 h2{
     margin: 10px 90px;
-    color: blue;
+    color: rgb(59, 31, 5);
 }
 h4{
     margin: 10px 80px;
